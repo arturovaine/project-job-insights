@@ -1,0 +1,16 @@
+version: '3.6'
+
+services:
+  web:
+    build:
+      context: .
+    volumes:
+      - .:/projeto
+    environment:
+      - FLASK_APP=src/app.py
+      - FLASK_ENV=development
+      - TEMPLATES_AUTO_RELOAD=True
+      - PYTHONUNBUFFERED=1
+      - APPLY_TO_ALL=True
+    ports:
+      - 5000:5000

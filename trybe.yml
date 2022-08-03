@@ -1,0 +1,31 @@
+ignore-files:
+  - src/templates/
+  - src/app.py
+  - src/jobs.csv
+  - src/more_insights.py
+  - src/sorting.py
+  - src/brazilian_jobs.py
+  - src/counter.py
+  - tests/mocks/
+  - tests/marker.py
+  - tests/sorting/conftest.py
+  - tests/sorting/mocks.py
+  - tests/__init__.py
+  - tests/conftest.py
+  - tests/test_insights.py
+  - tests/test_jobs.py
+  - tests/test_routes_and_views.py
+  - tests/test_flask_app.py
+  - tests/test_more_insights.py
+  - tests/brazilian/conftest.py
+  - tests/brazilian/mocks.py
+  - tests/counter/conftest.py
+  - tests/counter/mocks.py
+  - .env
+  - dev-requirements.txt
+  - requirements.txt
+  - setup.cfg
+  - pyproject.toml
+  - Dockerfile
+  - docker-compose.yml
+  
