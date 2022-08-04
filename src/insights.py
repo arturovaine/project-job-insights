@@ -60,7 +60,7 @@ def get_unique_industries(path):
     industry_types = set()
     for item in jobs_list:
         if item['industry'] != "":
-            industry_types.add(jobs_list['industry'])
+            industry_types.add(item["industry"])
     return industry_types
 
 
