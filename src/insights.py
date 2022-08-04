@@ -85,7 +85,7 @@ def filter_by_industry(jobs, industry):
     list
         List of jobs with provided industry
     """
-     # jobs: lista de dicionários
+    # jobs: lista de dicionários
     # industry: string
     filtered_jobs = []
     for listed_job in jobs:
