@@ -18,8 +18,8 @@ def get_unique_job_types(path):
     """
     jobs_list = read(path)
     job_types = set()
-    for item in jobs_list:
-        job_types.add(item['job_type'])
+    for listed_job in jobs_list:
+        job_types.add(listed_job['job_type'])
     return job_types
 
 
@@ -38,7 +38,13 @@ def filter_by_job_type(jobs, job_type):
     list
         List of jobs with provided job_type
     """
-    return []
+    # jobs: lista de dicionários
+    # job_type: string
+    filtered_jobs = []
+    for listed_job in jobs:
+        if listed_job["job_type"] == job_type:
+            filtered_jobs.append(listed_job)
+    return filtered_jobs
 
 
 def get_unique_industries(path):
@@ -58,9 +64,9 @@ def get_unique_industries(path):
     """
     jobs_list = read(path)
     industry_types = set()
-    for item in jobs_list:
-        if item['industry'] != "":
-            industry_types.add(item["industry"])
+    for listed_job in jobs_list:
+        if listed_job['industry'] != "":
+            industry_types.add(listed_job["industry"])
     return industry_types
 
 
@@ -99,10 +105,10 @@ def get_max_salary(path):
     """
     jobs_list = read(path)
     max_salaries = set()
-    for item in jobs_list:
-        if item["max_salary"] != "":
+    for listed_job in jobs_list:
+        if listed_job["max_salary"] != "":
             try:
-                max_salaries.add(float(item["max_salary"]))
+                max_salaries.add(float(listed_job["max_salary"]))
             except ValueError:
                 print("ValueError")
     max_salary = max(max_salaries)
@@ -126,10 +132,10 @@ def get_min_salary(path):
     """
     jobs_list = read(path)
     min_salaries = set()
-    for item in jobs_list:
-        if item["min_salary"] != "":
+    for listed_job in jobs_list:
+        if listed_job["min_salary"] != "":
             try:
-                min_salaries.add(float(item["min_salary"]))
+                min_salaries.add(float(listed_job["min_salary"]))
             except ValueError:
                 print("ValueError")
     min_salary = min(min_salaries)
