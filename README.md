@@ -1,12 +1,12 @@
 # Projeto Job Insights
 
-Projeto desenvolvido durante Módulo de Ciência da Computação do curso Trybe de Desenvolvimento Web Full Stack.
+Projeto desenvolvido durante <b>Módulo de Ciência da Computação</b> do curso <b>Trybe</b> de Desenvolvimento Web Full Stack. Aplicação web para exibição de um conjunto de dados sobre empregos (dados retirados da plataforma Kaggle), com implementação de funções <b>Python</b> incorporadas com <b>Flask</b>.
 
 Stacks:
 
 - Python
 - Pytest
-- Flask;Jinja
+- Flask, Jinja
 
 # Entregáveis
 
