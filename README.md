@@ -274,8 +274,8 @@ Agora que temos como carregar os dados, podemos começar a extrair informação 
 - A função desconsidera valores vazios
 </details>
 
-## 3 - Implemente a função `get_unique_industries`
-> **Implemente em:** `src/insights.py`
+## 3 - Implementar a função `get_unique_industries`
+> **Implementar em:** `src/insights.py`
 
 Da mesma forma, agora iremos identificar quais indústrias estão representadas nesse conjunto de dados.
 
