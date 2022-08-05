@@ -199,59 +199,12 @@ Projeto desenvolvido durante Módulo de Ciência da Computação do curso Trybe 
   </p>
 
 </details>
+<br><br>
 
+# Requisitos atendidos
 
-<details>
-  <summary><strong>🤝 Depois de terminar o desenvolvimento (opcional)</strong></summary><br />
-
-  Para sinalizar que o seu projeto está pronto para o _"Code Review"_, faça o seguinte:
-
-  - Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas:
-
-    - No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**;
-
-    - No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
-
-    - No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-016-a`.
-
-  Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
-</details>
-
-<details>
-  <summary><strong>🕵🏿 Revisando um pull request</strong></summary><br />
-
-  Use o conteúdo sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os _Pull Requests_.
-
-</details>
-
-<details>
-  <summary><strong>🗣 Nos dê feedbacks sobre o projeto!</strong></summary><br />
-
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. 
-**Leva menos de 3 minutos!**
-
-[FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://be-trybe.typeform.com/to/ZTeR4IbH)
-
-</details>
-
-<details>
-  <summary><strong>🗂 Compartilhe seu portfólio!</strong></summary><br />
-
-  Agora que você finalizou os requisitos, chegou a hora de mostrar ao mundo que você aprendeu algo novo! 🚀
-
-  Siga esse [**guia que preparamos com carinho**](https://app.betrybe.com/course/career/personal_portfolio/utilizando-projetos-feitos-na-trybe/d7ca7f50-0a8f-4b10-b360-cfcb454d832a) para disponibilizar o projeto finalizado no seu GitHub pessoal.
-
-  Esse passo é super importante para ganhar mais visibilidade no mercado de trabalho, mas também é útil para manter um back-up do seu trabalho.
-
-  E você sabia que o LinkedIn é a principal rede social profissional e compartilhar o seu aprendizado lá é muito importante para quem deseja construir uma carreira de sucesso? Compartilhe esse projeto no seu LinkedIn, marque o perfil da Trybe (@trybe) e mostre para a sua rede toda a sua evolução.
-
-</details>
-
-# Requisitos Obrigatórios
-
-## 1 - Implemente a função `read`
-> **Implemente em:** src/jobs.py
+## 1 - Implementar a função `read`
+> **Implementar em:** src/jobs.py
 
 Para começarmos a processar os dados, devemos antes carregá-los em nossa aplicação. Esta função será responsável por abrir o arquivo CSV e retornar os dados no formato de uma lista de dicionários.
 
@@ -300,8 +253,8 @@ Bernardo,Santos,999999
 - Nos dicionários retornados pela função, as chaves correspondem aos cabeçalhos do arquivo
 </details>
 
-## 2 - Implemente a função `get_unique_job_types`
-> **Implemente em:** `src/insights.py`
+## 2 - Implementar a função `get_unique_job_types`
+> **Implementar em:** `src/insights.py`
 
 Agora que temos como carregar os dados, podemos começar a extrair informação deles. Primeiro, vamos identificar quais tipos de empregos existem.
 
@@ -341,8 +294,8 @@ Da mesma forma, agora iremos identificar quais indústrias estão representadas 
 - A função retorna os valores corretos
 </details>
 
-## 4 - Implemente a função `get_max_salary`
-> **Implemente em:** `src/insights.py`
+## 4 - Implementar a função `get_max_salary`
+> **Implementar em:** `src/insights.py`
 
 Os dados apresentam faixas salariais para cada emprego exibido. Vamos agora encontrar o maior valor de todas as faixas.
 
@@ -360,8 +313,8 @@ Os dados apresentam faixas salariais para cada emprego exibido. Vamos agora enco
 - A função retorna o valor correto
 </details>
 
-## 5 - Implemente a função `get_min_salary`
-> **Implemente em:** `src/insights.py`
+## 5 - Implementar a função `get_min_salary`
+> **Implementar em:** `src/insights.py`
 
 Os dados apresentam faixas salariais para cada emprego exibido. Vamos agora encontrar o menor valor de todas as faixas.
 
@@ -384,7 +337,7 @@ Os dados apresentam faixas salariais para cada emprego exibido. Vamos agora enco
   <img src="/.images/filter.png" alt="Contagem" width="400"/>
 </p>
 
-> **Implemente em:** `src/insights.py`
+> **Implementar em:** `src/insights.py`
 
 Os empregos estão listados em um aplicativo web. Para permitir que a pessoa usuária possa filtrar os empregos por tipo de emprego, vamos precisar implementar esse filtro.
 
@@ -404,8 +357,8 @@ Os empregos estão listados em um aplicativo web. Para permitir que a pessoa usu
 - A função retorna uma lista vazia para `job_types` ausentes nos `jobs` recebidos
 </details>
 
-## 7 - Implemente a função `filter_by_industry`
-> **Implemente em:** `src/insights.py`
+## 7 - Implementar a função `filter_by_industry`
+> **Implementar em:** `src/insights.py`
 
 Do mesmo modo, o aplicativo precisa permitir uma filtragem por indústria. Vamos precisar implementar esse filtro também.
 
@@ -425,8 +378,8 @@ Do mesmo modo, o aplicativo precisa permitir uma filtragem por indústria. Vamos
 - A função retorna uma lista vazia para `job_types` ausentes nos `jobs` recebidos
 </details>
 
-## 8 - Implemente a função `matches_salary_range`
-> **Implemente em:** `src/insights.py`
+## 8 - Implementar a função `matches_salary_range`
+> **Implementar em:** `src/insights.py`
 
 O aplicativo vai precisar filtrar os empregos por salário também. Como uma função auxiliar, implemente `matches_salary_range` para conferir que o salário procurado está dentro da faixa salarial daquele emprego. Vamos aproveitar também para conferir se a faixa salarial faz sentido -- isto é, se o valor mínimo é menor que o valor máximo.
 
@@ -452,8 +405,8 @@ O aplicativo vai precisar filtrar os empregos por salário também. Como uma fun
 - A função lança um `ValueError` se as chaves `min_salary` ou `max_salary` estiverem ausentes no dicionário
 </details>
 
-## 9 - Implemente a função `filter_by_salary_range`
-> **Implemente em:** `src/insights.py`
+## 9 - Implementar a função `filter_by_salary_range`
+> **Implementar em:** `src/insights.py`
 
 Agora vamos implementar o filtro propriamente dito. Para esta filtragem, podemos usar a função auxiliar implementada no requisito anterior -- tomando o cuidado de descartar os empregos que apresentarem faixas salariais inválidas.
 
@@ -475,8 +428,8 @@ Agora vamos implementar o filtro propriamente dito. Para esta filtragem, podemos
 - Empregos onde o valor de `min_salary` for maior que o valor de `max_salary` devem ser ignorados
 </details>
 
-## 10 - Implemente um teste para a função `count_ocurrences`
-> **Implemente em:** `tests/counter/test_counter.py`
+## 10 - Implementar um teste para a função `count_ocurrences`
+> **Implementar em:** `tests/counter/test_counter.py`
 
   <p align="center">
     <img src="/.images/flask.png" alt="Imagem sobre contar ocorrências" width="600"/>
@@ -513,8 +466,8 @@ O nome deste teste **deve** ser `test_counter`, e ele deve garantir que atenda e
 
 </details>
 
-## 11 - Implemente um teste para a função `read_brazilian_file`
-> **Implemente em:** `tests/brazilian/test_brazilian_jobs.py`
+## 11 - Implementar um teste para a função `read_brazilian_file`
+> **Implementar em:** `tests/brazilian/test_brazilian_jobs.py`
 
 A empresa cliente analisa relatórios em inglês, porém agora ela quer expandir seus negócios aqui para o Brasil e deseja analisar relatórios em português também. No entanto, as chaves do `dict` que usamos pra organizar os dados **devem** continuar em inglês. Ou seja: para gerar o relatório, deveremos ler as chaves em português e traduzi-las para inglês para povoar os nossos dados.
 
@@ -553,8 +506,8 @@ O nome deste teste **deve** ser `test_brazilian_jobs`, e ele deve garantir que a
 - Se o teste não é um falso positivo, ou seja, teste que passa sem realmente testar o código.
 </details>
 
-## 12 - Implemente um teste para a função `sort_by`
-> **Implemente em:** `tests/sorting/test_sorting.py`
+## 12 - Implementar um teste para a função `sort_by`
+> **Implementar em:** `tests/sorting/test_sorting.py`
 
 Por fim, espera-se que a pessoa usuária possa escolher um critério de ordenação para exibir os empregos. Já temos uma implementação para essa ordenação em `src/sorting.py`, mas queremos ter certeza de que ela funciona e, principalmente, que não deixará de funcionar conforme vamos implementando novos recursos. Precisamos então escrever um *teste*!
 
@@ -591,10 +544,10 @@ Esse teste deve se chamar `test_sort_by_criteria` e garantir que a função func
 
 # Requisitos Bônus
 
-## 13 - (`Bônus`) Implemente a página de um job
-> **Implemente em:** `src/routes_and_views.py`
+## 13 - (`Bônus`) Implementar a página de um job
+> **Implementar em:** `src/routes_and_views.py`
 
-Para fechar com chave de ouro, que tal testar o quanto você consegue aprender de Flask apenas vendo como fizemos as páginas de `index` e de `jobs`, e tentar criar uma página que irá exibir todas as informações de um job em específico?
+Apenas verificando como foram criadas as páginas de `index` e de `jobs`, tentar criar uma página que irá exibir todas as informações de um job em específico.
 
 - A função deve ser decorada com a rota `/job/<index>`.
 - A função deve receber um parâmetro `index`.
@@ -606,7 +559,7 @@ Para fechar com chave de ouro, que tal testar o quanto você consegue aprender d
   <summary>
     <b>✍️ Teste manual</b>
   </summary>
-  Após criar a view, cheque se, na página que lista os jobs, aparecem links para jobs específicos nos números que identificam cada job. Ao clicar em um destes links, você deve ser levado a uma página que lista todas as informações do job.
+  Após criar a view, checar se, na página que lista os jobs, aparecem links para jobs específicos nos números que identificam cada job. Ao clicar em um destes links, você deve ser levado a uma página que lista todas as informações do job.
 </details>
 
 <details>
