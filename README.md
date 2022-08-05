@@ -2,6 +2,12 @@
 
 Projeto desenvolvido durante Módulo de Ciência da Computação do curso Trybe de Desenvolvimento Web Full Stack.
 
+Stacks:
+
+- Python
+- Pytest
+- Flask;Jinja
+
 # Entregáveis
 
 <details>
