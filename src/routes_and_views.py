@@ -85,7 +85,7 @@ def job(index):
     job_type = request.args.get("job_type", None)
 
     jobs = read(path="src/jobs.csv")
-    job = get_job(index)
+    job = get_job(jobs, index)
 
     jobs = slice_jobs(jobs, first_job, amount)
 
