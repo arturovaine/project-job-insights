@@ -1,4 +1,4 @@
-# Boas-vindas ao repositório do Job Insights!
+# Projeto Job Insights
 
 Para realizar o projeto, atente-se a cada passo descrito a seguir, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
 
@@ -24,11 +24,17 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
     <img src="/.images/job.png" alt="Logo Aplicação" width="300"/>
   </p>
   
-  Neste projeto você implementará análises a partir de um conjunto de dados sobre empregos. Suas implementações serão incorporadas a um aplicativo Web desenvolvido com Flask (um framework web muito popular na comunidade Python). Você também terá a oportunidade de escrever testes para a implementação de uma análise de dados. Por fim, como bônus, você terá o desafio de escrever uma rota e view para um recurso novo usando Flask!
+  Projeto implementado para realização de análises a partir de um conjunto de dados sobre empregos.
+  
+  Implementação de funções incorporadas a um aplicativo Web desenvolvido com Flask (framework web popular na comunidade Python).
+  
+  Além disto foram desenvolvidos testes da aplicação. 
+  
+  Adicionalmente ao projeto base do curso Trybe, foi desenvolvida uma rota (/job/<index>) e view para o recurso novo utilizando Flask.
 
-  Os dados foram extraídos do site [Glassdoor](https://www.glassdoor.com.br/) e obtidos através do [Kaggle](https://www.kaggle.com/atharvap329/glassdoor-data-science-job-data), uma plataforma disponiblizando conjuntos de dados para cientistas de dados.
+  Os dados a exibir foram extraídos do site [Glassdoor](https://www.glassdoor.com.br/) e obtidos através do [Kaggle](https://www.kaggle.com/atharvap329/glassdoor-data-science-job-data), plataforma popular de disponiblização de dados para cientistas de dados.
 
-  🚵 Habilidades a serem trabalhadas:
+  🚵 Habilidades trabalhadas:
   <ul>
     <li>Utilizar o terminal interativo do Python.</li>
     <li>Utilizar estruturas condicionais e de repetição.</li>
@@ -41,89 +47,7 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
   </ul>
 </details>
 
-<details>
-  <summary><strong>🗓 Data de Entrega</strong></summary><br />
-  
-  * Este projeto é individual;
-  * São `2` dias de projeto;
-  * Data para entrega final do projeto: `12/08/2022 14:00`.
-
-</details>
-
 # Orientações
-<details>
-  <summary><strong>⚠ Antes de começar a desenvolver</strong></summary><br />
-
-  1. Clone o repositório
-
-  - Use o comando: `git clone git@github.com:tryber/sd-016-a-project-job-insights.git`.
-  - Entre na pasta do repositório que você acabou de clonar:
-    - `cd sd-016-a-project-job-insights`
-
-  2. Crie o ambiente virtual para o projeto
-
-  - `python3 -m venv .venv && source .venv/bin/activate`
-  
-  3. Instale as dependências
-
-  - `python3 -m pip install -r dev-requirements.txt`
-  
-  4. Crie uma branch a partir da branch `main`
-
-  - Verifique que você está na branch `main`
-    - Exemplo: `git branch`
-  - Se não estiver, mude para a branch `main`
-    - Exemplo: `git checkout main`
-  - Agora crie uma branch à qual você vai submeter os `commits` do seu projeto
-    - Você deve criar uma branch no seguinte formato: `nome-github-nome-do-projeto`
-    - Exemplo: `git checkout -b joaozinho-job-insights`
-
-  5. Adicione as mudanças ao _stage_ do Git e faça um `commit`
-
-  - Verifique que as mudanças ainda não estão no _stage_
-    - Exemplo: `git status` (deve aparecer listada a pasta _joaozinho_ em vermelho)
-  - Adicione o novo arquivo ao _stage_ do Git
-    - Exemplo:
-      - `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-      - `git status` (deve aparecer listado o arquivo _joaozinho/README.md_ em verde)
-  - Faça o `commit` inicial
-    - Exemplo:
-      - `git commit -m 'iniciando o projeto job-insights'` (fazendo o primeiro commit)
-      - `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
-
-  6. Adicione a sua branch com o novo `commit` ao repositório remoto
-
-  - Usando o exemplo anterior: `git push -u origin joaozinho-job-insights`
-
-  7. Crie um novo `Pull Request` _(PR)_
-
-  - Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-016-a-project-job-insights/pulls)
-  - Clique no botão verde _"New pull request"_
-  - Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
-  - Coloque um título para a sua _Pull Request_
-    - Exemplo: _"Cria tela de busca"_
-  - Clique no botão verde _"Create pull request"_
-  - Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
-  - **Não se preocupe em preencher mais nada por enquanto!**
-  - Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-016-a-project-job-insights/pulls) e confira que o seu _Pull Request_ está criado
-
-</details>
-
-<details>
-  <summary><strong>⌨️ Durante o desenvolvimento</strong></summary><br />
-
-  - Faça `commits` das alterações que você fizer no código regularmente
-
-  - Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto
-
-  - Os comandos que você utilizará com mais frequência são:
-    1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
-    2. `git add` _(para adicionar arquivos ao stage do Git)_
-    3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
-    4. `git push -u origin nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
-    5. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
-
-</details>
 
 <details>
   <summary><strong>🧱 Estrutura do Projeto</strong></summary><br />
@@ -131,8 +55,8 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
 
   ```
   Legenda:
-  🔸Arquivos que não podem ser alterados
-  🔹Arquivos a serem alterados para realizar os requisitos.
+  🔸Arquivos fornecidos no projeto base do curso, não alterados
+  🔹Arquivos alterados para a realização dos requisitos.
   .
   ├──🔸README.md
   ├──🔸Dockerfile
@@ -195,21 +119,20 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
 <details>
   <summary><strong>🎛 Linter</strong></summary><br />
 
-  Para garantir a qualidade do código, vamos utilizar neste projeto o linter `Flake8`.
-  Assim o código estará alinhado com as boas práticas de desenvolvimento, sendo mais legível
-  e de fácil manutenção! Para rodá-lo localmente no projeto, execute o comandos abaixo:
+  Para garantir a qualidade do código, foi utilizado neste projeto o linter `Flake8`.
+  Assim o código está alinhado com as boas práticas de desenvolvimento, sendo mais legível
+  e de fácil manutenção.
+  
+  Para rodá-lo localmente no projeto, execute o comandos abaixo:
 
   ```bash
   python3 -m flake8
   ```
-
-  ⚠️ **PULL REQUESTS COM ISSUES DE LINTER NÃO SERÃO AVALIADAS.
-  ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!** ⚠️
 </details>
 
 <details>
   <summary><strong>🏕️ Ambiente Virtual</strong></summary><br />
-  O Python oferece um recurso chamado de ambiente virtual, onde permite sua máquina rodar sem conflitos, diferentes tipos de projetos com diferentes versões de bibliotecas.
+  No desenvolvimento em Python utilizou-se o recurso chamado de ambiente virtual, que permite a sua máquina rodar projetos sem conflitos, considerando diferentes tipos de projetos com diferentes versões de bibliotecas.
 
   1. **criar o ambiente virtual**
 
@@ -232,7 +155,7 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
   Com o seu ambiente virtual ativo, as dependências serão instaladas neste ambiente.
   Quando precisar desativar o ambiente virtual, execute o comando "deactivate". Lembre-se de ativar novamente quando voltar a trabalhar no projeto.
 
-  O arquivo `dev-requirements.txt` contém todas as dependências que serão utilizadas no projeto, ele está agindo como se fosse um `package.json` de um projeto `Node.js`.
+  O arquivo `dev-requirements.txt` contém todas as dependências que utilizadas no projeto, ele "corresponde" a um `package.json` de um projeto `Node.js`.
 </details>
 
 <details>
@@ -276,7 +199,7 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
   python3 -m pytest tests/nomedoarquivo.py::test_nome_do_teste
   ```
 
-  Se quiser saber mais sobre a instalação de dependências com `pip`, veja esse [artigo](https://medium.com/python-pandemonium/better-python-dependency-and-package-management-b5d8ea29dff1).
+  Para saber mais sobre a instalação de dependências com `pip`, veja esse [artigo](https://medium.com/python-pandemonium/better-python-dependency-and-package-management-b5d8ea29dff1).
 
   <p align="center">
     <img src="/.images/flask-logo.png" alt="Logo Flask" width="200"/>
@@ -704,7 +627,6 @@ Para fechar com chave de ouro, que tal testar o quanto você consegue aprender d
   <summary>
     <b>🤖 O que será verificado pelo avaliador</b>
   </summary>
-
 
 - A rota `/job/<index>` existe.
 - A view `job` existe no arquivo `src/routes_and_views.py` e recebe o parâmetro `index` (e somente ele).
