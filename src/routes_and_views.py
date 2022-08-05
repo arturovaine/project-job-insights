@@ -76,7 +76,7 @@ def list_jobs():
     return render_template("list_jobs.jinja2", ctx=ctx)
 
 
-@bp.route("/jobs/<index>")
+@bp.route("/job/<index>")
 def job(index):
     first_job = get_int_from_args("first_job", 0)
     amount = get_int_from_args("amount", 20)
