@@ -10,15 +10,15 @@ Projeto desenvolvido durante Módulo de Ciência da Computação do curso Trybe 
     <img src="/.images/job.png" alt="Logo Aplicação" width="300"/>
   </p>
   
-  Projeto implementado para realização de análises a partir de um conjunto de dados sobre empregos.
+  - Projeto implementado para realização de análises a partir de um conjunto de dados sobre empregos.
   
-  Implementação de funções incorporadas a um aplicativo Web desenvolvido com Flask (framework web popular na comunidade Python).
+  - Implementação de funções incorporadas a um aplicativo Web desenvolvido com Flask (framework web popular na comunidade Python).
   
-  Além disto foram desenvolvidos testes da aplicação. 
+ -  Além disto foram desenvolvidos testes da aplicação. 
   
-  Adicionalmente ao projeto base do curso Trybe, foi desenvolvida uma rota (/job/<index>) e view para o recurso novo utilizando Flask.
+  - Adicionalmente ao projeto base do curso Trybe, foi desenvolvida uma rota (/job/index) para visualização de detalhes de job pelo seu index, e respectiva view para o recurso novo utilizando Flask.
 
-  Os dados a exibir foram extraídos do site [Glassdoor](https://www.glassdoor.com.br/) e obtidos através do [Kaggle](https://www.kaggle.com/atharvap329/glassdoor-data-science-job-data), plataforma popular de disponiblização de dados para cientistas de dados.
+  - Os dados a exibir foram extraídos do site [Glassdoor](https://www.glassdoor.com.br/) e obtidos através do [Kaggle](https://www.kaggle.com/atharvap329/glassdoor-data-science-job-data), plataforma popular de disponiblização de dados para cientistas de dados.
 
   🚵 Habilidades trabalhadas:
   <ul>
@@ -199,7 +199,7 @@ Projeto desenvolvido durante Módulo de Ciência da Computação do curso Trybe 
   </p>
 
 </details>
-<br><br>
+
 
 # Requisitos atendidos
 
