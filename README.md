@@ -244,7 +244,7 @@ Bernardo,Santos,999999
 
 <details>
   <summary>
-    <b>🤖 O que será verificado pelo avaliador</b>
+    <b>🤖 Verificado pelo avaliador</b>
   </summary>
 
 - A função abre o arquivo passado como parâmetro
@@ -264,7 +264,7 @@ Agora que temos como carregar os dados, podemos começar a extrair informação 
 
 <details>
   <summary>
-    <b>🤖 O que será verificado pelo avaliador</b>
+    <b>🤖 Verificado pelo avaliador</b>
   </summary>
 
 
@@ -285,7 +285,7 @@ Da mesma forma, agora iremos identificar quais indústrias estão representadas 
 
 <details>
   <summary>
-    <b>🤖 O que será verificado pelo avaliador</b>
+    <b>🤖 Verificado pelo avaliador</b>
   </summary>
 
 
@@ -305,7 +305,7 @@ Os dados apresentam faixas salariais para cada emprego exibido. Vamos agora enco
 
 <details>
   <summary>
-    <b>🤖 O que será verificado pelo avaliador</b>
+    <b>🤖 Verificado pelo avaliador</b>
   </summary>
 
 
@@ -324,7 +324,7 @@ Os dados apresentam faixas salariais para cada emprego exibido. Vamos agora enco
 
 <details>
   <summary>
-    <b>🤖 O que será verificado pelo avaliador</b>
+    <b>🤖 Verificado pelo avaliador</b>
   </summary>
 
 
@@ -347,7 +347,7 @@ Os empregos estão listados em um aplicativo web. Para permitir que a pessoa usu
 
 <details>
   <summary>
-    <b>🤖 O que será verificado pelo avaliador</b>
+    <b>🤖 Verificado pelo avaliador</b>
   </summary>
 
 
@@ -368,7 +368,7 @@ Do mesmo modo, o aplicativo precisa permitir uma filtragem por indústria. Vamos
 
 <details>
   <summary>
-    <b>🤖 O que será verificado pelo avaliador</b>
+    <b>🤖 Verificado pelo avaliador</b>
   </summary>
 
 
@@ -394,7 +394,7 @@ O aplicativo vai precisar filtrar os empregos por salário também. Como uma fun
 
 <details>
   <summary>
-    <b>🤖 O que será verificado pelo avaliador</b>
+    <b>🤖 Verificado pelo avaliador</b>
   </summary>
 
 
@@ -417,7 +417,7 @@ Agora vamos implementar o filtro propriamente dito. Para esta filtragem, podemos
 
 <details>
   <summary>
-    <b>🤖 O que será verificado pelo avaliador</b>
+    <b>🤖 Verificado pelo avaliador</b>
   </summary>
 
 
@@ -456,7 +456,7 @@ O nome deste teste **deve** ser `test_counter`, e ele deve garantir que atenda e
 
 <details>
   <summary>
-    <b>🤖 O que será verificado pelo avaliador</b>
+    <b>🤖 Verificado pelo avaliador</b>
   </summary>
 
 
@@ -497,7 +497,7 @@ O nome deste teste **deve** ser `test_brazilian_jobs`, e ele deve garantir que a
 
 <details>
   <summary>
-    <b>🤖 O que será verificado pelo avaliador</b>
+    <b>🤖 Verificado pelo avaliador</b>
   </summary>
 
 
@@ -530,7 +530,7 @@ Esse teste deve se chamar `test_sort_by_criteria` e garantir que a função func
 
 <details>
   <summary>
-    <b>🤖 O que será verificado pelo avaliador</b>
+    <b>🤖 Verificado pelo avaliador</b>
   </summary>
 
 
@@ -542,7 +542,7 @@ Esse teste deve se chamar `test_sort_by_criteria` e garantir que a função func
 
 ---
 
-# Requisitos Bônus
+# Bônus
 
 ## 13 - (`Bônus`) Implementar a página de um job
 > **Implementar em:** `src/routes_and_views.py`
@@ -564,7 +564,7 @@ Apenas verificando como foram criadas as páginas de `index` e de `jobs`, tentar
 
 <details>
   <summary>
-    <b>🤖 O que será verificado pelo avaliador</b>
+    <b>🤖 Verificado pelo avaliador</b>
   </summary>
 
 - A rota `/job/<index>` existe.
