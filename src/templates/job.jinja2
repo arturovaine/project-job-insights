@@ -7,6 +7,45 @@
 <h4>{{ key | capitalize }}</h4>
 <p>{{ value }}</p>
 <hr>
+<h4>Job_title</h4>
+<p>{% if ctx["job"]["job_title"] %}</p>
+<hr>
+<h4>Company</h4>
+<p>{% if ctx["job"]["company"] %}</p>
+<hr>
+<h4>State</h4>
+<p>{% if ctx["job"]["state"] %}</p>
+<hr>
+<h4>City</h4>
+<p>{% if ctx["job"]["city"] %}</p>
+<hr>
+<h4>Min_salary</h4>
+<p>{% if ctx["job"]["min_salary"] %}</p>
+<hr>
+<h4>Max_salary</h4>
+<p>{% if ctx["job"]["max_salary"] %}</p>
+<hr>
+<h4>Job_desc</h4>
+<p>{% if ctx["job"]["job_desc"] %}</p>
+<hr>
+<h4>Industry</h4>
+<p>{% if ctx["job"]["industry"] %}</p>
+<hr>
+<h4>Rating</h4>
+<p>{% if ctx["job"]["rating"] %}</p>
+<hr>
+<h4>Date_posted</h4>
+<p>{% if ctx["job"]["date_posted"] %}</p>
+<hr>
+<h4>Valid_until</h4>
+<p>{% if ctx["job"]["valid_until"] %}</p>
+<hr>
+<h4>Job_type</h4>
+<p>{% if ctx["job"]["job_type"] %}</p>
+<hr>
+<h4>Id</h4>
+<p>{% if ctx["job"]["id"] %}</p>
+<hr>
 {% endif -%}
 {% endfor %}
 <button class="btn my-3 btn-warning" onclick="goBack()">Go Back</button>
