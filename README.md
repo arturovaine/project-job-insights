@@ -203,7 +203,24 @@ Projeto desenvolvido durante Módulo de Ciência da Computação do curso Trybe 
 
 # Requisitos atendidos
 
+- 1 - Implementar a função `read`
+- 2 - Implementar a função `get_unique_job_types`
+- 3 - Implementar a função `get_unique_industries`
+- 4 - Implementar a função `get_max_salary`
+- 5 - Implementar a função `get_min_salary`
+- 6 - Implementar a função `filter_by_job_type`
+- 7 - Implementar a função `filter_by_industry`
+- 8 - Implementar a função `matches_salary_range`
+- 9 - Implementar a função `filter_by_salary_range`
+- 10 - Implementar um `teste` para a função `count_ocurrences`
+- 11 - Implementar um `teste` para a função `read_brazilian_file`
+- 12 - Implementar um `teste` para a função `sort_by`
+- 13 - (Bônus) Implementar a página de um job
+
+<br> 
+
 ## 1 - Implementar a função `read`
+
 > **Implementar em:** src/jobs.py
 
 Para começarmos a processar os dados, devemos antes carregá-los em nossa aplicação. Esta função será responsável por abrir o arquivo CSV e retornar os dados no formato de uma lista de dicionários.
@@ -448,10 +465,10 @@ O nome deste teste **deve** ser `test_counter`, e ele deve garantir que atenda e
 
 <details>
   <summary>
-    <b>📌Como seu teste é avaliado</b>
+    <b>📌Como o teste foi avaliado:</b>
   </summary>
-  O <strong>teste da Trybe</strong> irá avaliar se o <strong>seu teste</strong> está passando conforme seu objetivo e confirmará se ele está falhando em alguns casos que deve falhar.
-  Para estes testes que esperemos que falhe, o requisito será considerado atendindo quando a resposta do Pytest for <code>XFAIL(Expected Fail)</code> ao invés de <code>PASS</code> ou <code>FAIL</code>.
+  O <strong>teste da Trybe</strong> avaliou se o <strong>seu teste</strong> passou conforme seu objetivo e confirmou se ele estava falhando em alguns casos em que deve falhar.
+  Para estes testes que esperemos que falhe, o requisito foi considerado atendindo quando a resposta do Pytest for <code>XFAIL(Expected Fail)</code> ao invés de <code>PASS</code> ou <code>FAIL</code>.
 </details>
 
 <details>
@@ -487,12 +504,13 @@ O nome deste teste **deve** ser `test_brazilian_jobs`, e ele deve garantir que a
 
   Deve ser traduzido para: <code>{"title": "Maquinista", "salary": "2000", "type": "trainee"}</code>
 </details>  
+
 <details>
   <summary>
-    <b>📌Como seu teste é avaliado</b>
+    <b>📌Como o teste foi avaliado:</b>
   </summary>
-  O <strong>teste da Trybe</strong> irá avaliar se o <strong>seu teste</strong> está passando conforme seu objetivo e confirmará se ele está falhando em alguns casos que deve falhar.
-  Para estes testes que esperemos que falhe, o requisito será considerado atendindo quando a resposta do Pytest for <code>XFAIL(Expected Fail)</code> ao invés de <code>PASS</code> ou <code>FAIL</code>.
+  O <strong>teste da Trybe</strong> avaliou se o <strong>seu teste</strong> passou conforme seu objetivo e confirmou se ele estava falhando em alguns casos em que deve falhar.
+  Para estes testes que esperemos que falhe, o requisito foi considerado atendindo quando a resposta do Pytest for <code>XFAIL(Expected Fail)</code> ao invés de <code>PASS</code> ou <code>FAIL</code>.
 </details>
 
 <details>
@@ -522,10 +540,10 @@ Esse teste deve se chamar `test_sort_by_criteria` e garantir que a função func
 
 <details>
   <summary>
-    <b>📌Como seu teste é avaliado</b>
+    <b>📌Como o teste foi avaliado:</b>
   </summary>
-  O <strong>teste da Trybe</strong> irá avaliar se o <strong>seu teste</strong> está passando conforme seu objetivo e confirmará se ele está falhando em alguns casos que deve falhar.
-  Para estes testes que esperemos que falhe, o requisito será considerado atendindo quando a resposta do Pytest for <code>XFAIL(Expected Fail)</code> ao invés de <code>PASS</code> ou <code>FAIL</code>.
+  O <strong>teste da Trybe</strong> avaliou se o <strong>seu teste</strong> passou conforme seu objetivo e confirmou se ele estava falhando em alguns casos em que deve falhar.
+  Para estes testes que esperemos que falhe, o requisito foi considerado atendindo quando a resposta do Pytest for <code>XFAIL(Expected Fail)</code> ao invés de <code>PASS</code> ou <code>FAIL</code>.
 </details>
 
 <details>
